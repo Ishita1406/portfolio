@@ -7,7 +7,7 @@ import { mdiLinkedin } from "@mdi/js";
 import { mdiGoogle } from "@mdi/js";
 import Footer from "../../Components/Footer";
 import './ContactPage.css'
-import prof from '/home/ishita/portfolio/src/Components/assets/profile.jpeg';
+import prof from '/home/ishita/portfolio/src/assets/profile.jpeg';
 
 function ContactPage () {
     return (
