@@ -1,7 +1,7 @@
 @font-face{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+    url("assets/LovelyHome-9aBZ.ttf") format('truetype');
 
 }
 
@@ -11,9 +11,9 @@ nav{
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    /* padding: 15px; */
     color: #fff;
 }
 
@@ -46,8 +46,15 @@ nav{
     padding: 10px;
 }
 
-.nav a:hover {
-    /* text-decoration: underline; */
-    color: black;
-    background-color: #f1f1f1;
+.nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: black;
+    transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+    width: 100%;
 }

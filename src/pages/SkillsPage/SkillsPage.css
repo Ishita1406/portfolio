@@ -1,0 +1,23 @@
+.skills {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding: 20px;
+}
+
+.imgParent{
+    /* margin-bottom: 20px; */
+    width: 50%;
+}
+
+.imgParent img {
+    width: 80%;
+}
+
+.progressBarParent {
+    width: 45%;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.tile {
+    display: flex;
+}
+
+.tile.right {
+    flex-direction: row-reverse;
+}
+
+.text {
+    font-size: 20px;
+    color: #868e96;
+    margin: 0px 0px 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.textParent {
+    width: 50%;
+    margin: 60px;
+}
+
+.img-parent{
+    width: 50%;
+    margin: 60px;
+}
+
+.img-parent img{
+    width: 75%;
+}
+.img.circle {
+    border-radius: 50%;
+    height: 70%;
+    width: 60%;
+    object-fit: cover;
+    margin-left: 80px;
+    border: #6c63ff 10px solid;
+}
