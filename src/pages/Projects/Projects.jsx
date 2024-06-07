@@ -11,7 +11,7 @@ function Projects () {
             <Tile
                 img={"https://ajitverma15.github.io/Interactive-Portfolio/Image/Project.svg"}
                 header={"Projects"}
-                text1={"My Project uses various technologies to make the model more accurate and stable. As of now, I haven't done many projects but in near future I will make more projects."}
+                text1={"Coming soon!!"}
             />
         <Footer/>
         </>

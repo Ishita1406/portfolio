@@ -11,7 +11,8 @@ function EducationPage() {
 
         <Tile 
             img={"https://ajitverma15.github.io/Interactive-Portfolio/Image/Programming.svg"}
-            header={"Competitive Programming"}
+            header={"Education"}
+            text1={"I did my schooling from Sharda Dnyanpeeth, Buldana Maharashtra and I'm currently doing my B.S degree in Scaler school of technology, Bangalore."}
         />
         <Footer/>
         </>
